@@ -172,8 +172,6 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData \
     libqdMetaData.vendor \
-    libtinyxml \
-    libtinyxml.vendor \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor
 
@@ -380,7 +378,6 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
-    librmnetctl \
     libprotobuf-cpp-full \
     rild
 
