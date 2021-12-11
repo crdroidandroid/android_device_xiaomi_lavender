@@ -323,8 +323,16 @@ on post-fs-data
     #Create FM dir for patchdownloader
     mkdir /data/vendor/fm 0770 system system
     chmod 0770 /data/vendor/fm
-
+    
     mkdir /data/vendor/secure_element 0777 system system
+
+    # Smart Charging
+    chown system system /sys/class/power_supply/battery/charging_enabled
+    chmod 0666 /sys/class/power_supply/battery/charging_enabled
+    chown system system /sys/class/power_supply/battery/capacity
+    chmod 0666 /sys/class/power_supply/battery/capacity
+    chown system system /sys/class/power_supply/battery/temp
+    chmod 0666 /sys/class/power_supply/battery/temp
 
     # Mark the copy complete flag to not completed
     write /data/vendor/radio/copy_complete 0
