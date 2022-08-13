@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "crdroidandroid/android_kernel_xiaomi_lavender",
+    "target_path": "kernel/xiaomi/lavender",
+    "branch": "qti"
+  },
+  {
+    "repository": "crdroidandroid/android_vendor_xiaomi_lavender",
+    "target_path": "vendor/xiaomi/lavender",
+    "branch": "12.1"
+  }
+]
