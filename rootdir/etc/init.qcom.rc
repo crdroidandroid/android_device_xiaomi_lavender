@@ -110,13 +110,6 @@ on post-fs
     start bootanim
     start vendor.hwcomposer-2-1
     start vendor.configstore-hal
-    start vendor.qti.hardware.display.allocator
-
-    # Start services for bootanim
-    start surfaceflinger
-    start bootanim
-    start vendor.hwcomposer-2-1
-    start vendor.configstore-hal
     start vendor.gralloc-2-0
 
 on early-boot
