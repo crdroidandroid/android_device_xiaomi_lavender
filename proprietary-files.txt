@@ -135,6 +135,12 @@ vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|ff7a319e51ddd4de14af28a84f7
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|90f1106f7462a9e01721e1159ed3301579adee07
 vendor/lib64/vendor.qti.latency@2.0.so|91a8b05b20485057ee9f42c55ce70207ef6af761
 
+# ConsumerIR (lirc) - from jason V12.0.1.0.PCHCNXM
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.lirc.sdm660.so|8c614f98e2a42b5ba9e148c01b3d69e7fb59ce1d
+
+# ConsumerIR (spi) - from jasmine V11.0.28.0.QDIMIXM
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.spi.sdm660.so|d1f275a91557dfab52e82906986c5094fe078722
+
 # DPM - from jasmine
 product/bin/dpmd:system_ext/bin/dpmd|49caa8e7d8af8055efdd7ebc0d7f7d67bc600041
 product/etc/dpm/dpm.conf:system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
@@ -170,6 +176,12 @@ vendor/lib64/libsecureui_svcsock.so|889d4a12c5dee56ed4b10548abbd7b9033cbdad2
 vendor/lib64/libSecureUILib.so|3a059d1fe3395eaefeb7817ad3af46987b6f4794
 vendor/lib64/libssd.so|a64337d8044607b81adcf7e8c5760cf8cdcf82b4
 vendor/lib64/libStDrvInt.so|a7bd8140e2cd5aa70a7d929e01233e5b71844cd8
+
+# FM - from jasmine V11.0.28.0.QDIMIXM
+lib64/fm_helium.so:system_ext/lib64/fm_helium.so|bc9f6314528630c060b593cef4a8cec786b22467
+lib64/libfm-hci.so:system_ext/lib64/libfm-hci.so|589e9e290acfa18a49deba33606ed158d5e7f898
+product/lib64/vendor.qti.hardware.fm@1.0.so:system_ext/lib64/vendor.qti.hardware.fm@1.0.so|fc7ad886f82089edf36509865fadac17a7340f32
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|506efd87250697bdae271f86ea472785a77b84ef
 
 # GPS - from jasmine
 vendor/bin/loc_launcher|d0d1465a7f8eb24c50b3c616dccaf68b3dc7888a
