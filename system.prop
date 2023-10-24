@@ -1,3 +1,11 @@
+# ART
+dalvik.vm.dex2oat64.enabled=true
+ro.sys.fw.dex2oat_thread_count=8
+
+# Audio
+ro.config.media_vol_steps=25
+ro.config.vc_call_vol_steps=6
+
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
